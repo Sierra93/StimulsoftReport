@@ -1,0 +1,769 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="1">
+      <TestData Ref="2" type="Stimulsoft.Report.Dictionary.StiJsonDatabase" isKey="true">
+        <Alias>TestData</Alias>
+        <Key />
+        <Name>TestData</Name>
+        <PathData>resource://TestData</PathData>
+      </TestData>
+    </Databases>
+    <DataSources isList="true" count="4">
+      <root Ref="3" type="DataTableSource" isKey="true">
+        <Alias>root</Alias>
+        <Columns isList="true" count="1">
+          <value>panels,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>2aed737dd07c42bb93c84343921696f4</Key>
+        <Name>root</Name>
+        <NameInSource>TestData.root</NameInSource>
+      </root>
+      <root_panels Ref="4" type="DataTableSource" isKey="true">
+        <Alias>root_panels</Alias>
+        <Columns isList="true" count="11">
+          <value>name,System.String</value>
+          <value>name1,System.String</value>
+          <value>name2,System.String</value>
+          <value>plan,System.String</value>
+          <value>fact,System.String</value>
+          <value>start,System.String</value>
+          <value>end,System.String</value>
+          <value>year,System.String</value>
+          <value>period,System.String</value>
+          <value>periodkv,System.String</value>
+          <value>relationId,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>71b4fa1907c54ba6a80c4eed89209592</Key>
+        <Name>root_panels</Name>
+        <NameInSource>TestData.root_panels</NameInSource>
+      </root_panels>
+      <root_panels_period Ref="5" type="DataTableSource" isKey="true">
+        <Alias>root_panels_period</Alias>
+        <Columns isList="true" count="2">
+          <value>value,System.Decimal</value>
+          <value>relationId,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>c2fde3024dd741108301d9b1bfbc83d7</Key>
+        <Name>root_panels_period</Name>
+        <NameInSource>TestData.root_panels_period</NameInSource>
+      </root_panels_period>
+      <root_panels_periodkv Ref="6" type="DataTableSource" isKey="true">
+        <Alias>root_panels_periodkv</Alias>
+        <Columns isList="true" count="2">
+          <value>value,System.String</value>
+          <value>relationId,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>1355d1e087bd481fb68809498431b612</Key>
+        <Name>root_panels_periodkv</Name>
+        <NameInSource>TestData.root_panels_periodkv</NameInSource>
+      </root_panels_periodkv>
+    </DataSources>
+    <Relations isList="true" count="0" />
+    <Report isRef="0" />
+    <Resources isList="true" count="1">
+      <value>Name=TestData, Alias=TestData, Type=Json, Content=_x0033_wfncR6tibOS_x002B_EoW7qR3jwYSCvoP60jpdLoM7WQKOnWfdqGWiLV5cLLYVNFgJeH5XlUr3zzOpOGYSh3Ap6cGfKlF0zSko3_x002F_Grl7eMNhT0zAkFAViaCqUMUPpAl1aP0_x002F_h7Hin5r_x002F_T3wIvvhaPJn9ZnrcQ6SVV6uhQ1s3KcjrVR70CtyBoIyK0g09ZM0J0GRlGGZVuWjZibrFwr41XU9x8uIs_x002F_hRl5SifFEV5KsRT6DAzHkPgEMBWKHAjloD2YBi9b0BR7dgCJ8S_x002F_WcxZUHMe5WlRfszEK3q_x002B_YT1E2kzFAySOnQ3uvPR_x002F_HOE0Ep_x002F_BMiVUXB61OcjfJIxdIr2jsaf0Wy7Q1M_x002B_mTcZ_x002F_mMtdCswbB75co5w8zI0kEh60lTmQ4klhdxVOdk0sRbe2Au4L7OrvS_x002F_SyMp9F8PD_x002B_SC8l_x002B_vCaZliIX03gglYPT1w7L558QRH_x002F_Osv3p</value>
+    </Resources>
+    <Variables isList="true" count="0" />
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <Key>6257bb8f479d44ab9f5edc175638c451</Key>
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <Page1 Ref="7" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="14">
+        <DataBand1 Ref="8" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0.4,27.7,0.8</ClientRectangle>
+          <Components isList="true" count="5">
+            <CrossTab1 Ref="9" type="Stimulsoft.Report.CrossTab.StiCrossTab" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <ClientRectangle>5.6,0.8,12.8,1</ClientRectangle>
+              <Components isList="true" count="3">
+                <CrossTab1_ColTotal1 Ref="10" type="CrossColumnTotal" isKey="true">
+                  <Border>All;[155:155:155];1;Solid;False;4;Black</Border>
+                  <Brush>[255:255:255]</Brush>
+                  <ClientRectangle>1.65,0.05,0,0.4</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Font>Arial,8</Font>
+                  <Guid>45ed4eb63a344190bf943600fe0abca3</Guid>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>CrossTab1_ColTotal1</Name>
+                  <Page isRef="7" />
+                  <Parent isRef="9" />
+                  <Restrictions>AllowMove, AllowResize, AllowSelect, AllowChange</Restrictions>
+                  <Text>Total</Text>
+                  <TextBrush>Black</TextBrush>
+                </CrossTab1_ColTotal1>
+                <CrossTab1_Column1_Title Ref="11" type="CrossTitle" isKey="true">
+                  <Border>All;[155:155:155];1;Solid;False;4;Black</Border>
+                  <Brush>White</Brush>
+                  <ClientRectangle>0,0.05,0.2,0.4</ClientRectangle>
+                  <Enabled>False</Enabled>
+                  <Expressions isList="true" count="0" />
+                  <Font>Arial,8</Font>
+                  <Guid>6daa2f93e57b4dd4adbf022f8b9452d4</Guid>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>CrossTab1_Column1_Title</Name>
+                  <Page isRef="7" />
+                  <Parent isRef="9" />
+                  <Restrictions>AllowMove, AllowResize, AllowSelect, AllowChange</Restrictions>
+                  <TextBrush>[105:105:105]</TextBrush>
+                  <TypeOfComponent>Col:CrossTab1_Column1</TypeOfComponent>
+                </CrossTab1_Column1_Title>
+                <CrossTab1_Column1 Ref="12" type="CrossColumn" isKey="true">
+                  <Alias>year</Alias>
+                  <Border>All;[155:155:155];1;Solid;False;4;Black</Border>
+                  <Brush>White</Brush>
+                  <ClientRectangle>0.25,0.05,7.2,0.4</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <DisplayValue>{root_panels.year}</DisplayValue>
+                  <Expressions isList="true" count="0" />
+                  <Font>Arial,8</Font>
+                  <Guid>3264ba6c55944938b10270d183fd0f2b</Guid>
+                  <Margins>0,0,0,0</Margins>
+                  <MinSize>7.2,0</MinSize>
+                  <Name>CrossTab1_Column1</Name>
+                  <Page isRef="7" />
+                  <Parent isRef="9" />
+                  <Restrictions>AllowMove, AllowResize, AllowSelect, AllowChange</Restrictions>
+                  <ShowTotal>False</ShowTotal>
+                  <Text>year</Text>
+                  <TextBrush>[105:105:105]</TextBrush>
+                  <TotalGuid>45ed4eb63a344190bf943600fe0abca3</TotalGuid>
+                  <Value>{root_panels.year}</Value>
+                </CrossTab1_Column1>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <DataRelationName />
+              <DataSourceName>root_panels</DataSourceName>
+              <EmptyValue />
+              <Expressions isList="true" count="0" />
+              <Filters isList="true" count="0" />
+              <Name>CrossTab1</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <Sort isList="true" count="0" />
+            </CrossTab1>
+            <StartPointPrimitive2 Ref="13" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+              <ClientRectangle>5.8,0.8,0,0</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Name>StartPointPrimitive2</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <ReferenceToGuid>d54873581b5345cc81e52ce565e7c46f</ReferenceToGuid>
+            </StartPointPrimitive2>
+            <StartPointPrimitive3 Ref="14" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+              <ClientRectangle>13,0.8,0,0</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Name>StartPointPrimitive3</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <ReferenceToGuid>5da5c0e5c2b3454999f17f4759e364a1</ReferenceToGuid>
+            </StartPointPrimitive3>
+            <StartPointPrimitive4 Ref="15" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+              <ClientRectangle>20.2,0.8,0,0</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Name>StartPointPrimitive4</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <ReferenceToGuid>662711301a594964bf79a2a5315370bf</ReferenceToGuid>
+            </StartPointPrimitive4>
+            <StartPointPrimitive5 Ref="16" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+              <ClientRectangle>27.4,0.8,0,0</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Name>StartPointPrimitive5</Name>
+              <Page isRef="7" />
+              <Parent isRef="8" />
+              <ReferenceToGuid>8fcb268f08804f289b319e477aab6d00</ReferenceToGuid>
+            </StartPointPrimitive5>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DataRelationName isNull="true" />
+          <Expressions isList="true" count="0" />
+          <Filters isList="true" count="0" />
+          <Name>DataBand1</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Sort isList="true" count="0" />
+        </DataBand1>
+        <Headerroot_panels Ref="17" type="HeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,2,27.7,0.8</ClientRectangle>
+          <Components isList="true" count="3">
+            <CrossTab2 Ref="18" type="Stimulsoft.Report.CrossTab.StiCrossTab" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <ClientRectangle>5.6,0.2,12.8,1</ClientRectangle>
+              <Components isList="true" count="3">
+                <CrossTab2_ColTotal1 Ref="19" type="CrossColumnTotal" isKey="true">
+                  <Border>All;[155:155:155];1;Solid;False;4;Black</Border>
+                  <Brush>[255:255:255]</Brush>
+                  <ClientRectangle>1.65,0.05,0,0.4</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Font>Arial,8</Font>
+                  <Guid>ea40c35c48904c818dbbbf55d7586fb3</Guid>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>CrossTab2_ColTotal1</Name>
+                  <Page isRef="7" />
+                  <Parent isRef="18" />
+                  <Restrictions>AllowMove, AllowResize, AllowSelect, AllowChange</Restrictions>
+                  <Text>Total</Text>
+                  <TextBrush>Black</TextBrush>
+                </CrossTab2_ColTotal1>
+                <CrossTab2_Column1_Title Ref="20" type="CrossTitle" isKey="true">
+                  <Border>All;[155:155:155];1;Solid;False;4;Black</Border>
+                  <Brush>White</Brush>
+                  <ClientRectangle>0,0.05,0.2,0.4</ClientRectangle>
+                  <Enabled>False</Enabled>
+                  <Expressions isList="true" count="0" />
+                  <Font>Arial,8</Font>
+                  <Guid>c5df96ee4fb24f73b614a9da972acebe</Guid>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>CrossTab2_Column1_Title</Name>
+                  <Page isRef="7" />
+                  <Parent isRef="18" />
+                  <Restrictions>AllowMove, AllowResize, AllowSelect, AllowChange</Restrictions>
+                  <TextBrush>[105:105:105]</TextBrush>
+                  <TypeOfComponent>Col:CrossTab2_Column1</TypeOfComponent>
+                </CrossTab2_Column1_Title>
+                <CrossTab2_Column1 Ref="21" type="CrossColumn" isKey="true">
+                  <Alias>value</Alias>
+                  <Border>All;[155:155:155];1;Solid;False;4;Black</Border>
+                  <Brush>White</Brush>
+                  <ClientRectangle>0.25,0.05,0.8,0.4</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <DisplayValue>{root_panels_period.value}</DisplayValue>
+                  <Expressions isList="true" count="0" />
+                  <Font>Arial,8</Font>
+                  <Guid>911a2047edf84d3ab0c403906b90082e</Guid>
+                  <Margins>0,0,0,0</Margins>
+                  <MinSize>0.45,0</MinSize>
+                  <Name>CrossTab2_Column1</Name>
+                  <Page isRef="7" />
+                  <Parent isRef="18" />
+                  <Restrictions>AllowMove, AllowResize, AllowSelect, AllowChange</Restrictions>
+                  <ShowTotal>False</ShowTotal>
+                  <Text>value</Text>
+                  <TextBrush>[105:105:105]</TextBrush>
+                  <TotalGuid>ea40c35c48904c818dbbbf55d7586fb3</TotalGuid>
+                  <Value>{root_panels_period.value}</Value>
+                </CrossTab2_Column1>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <DataRelationName />
+              <DataSourceName>root_panels_period</DataSourceName>
+              <EmptyValue />
+              <Expressions isList="true" count="0" />
+              <Filters isList="true" count="0" />
+              <Name>CrossTab2</Name>
+              <Page isRef="7" />
+              <Parent isRef="17" />
+              <Sort isList="true" count="0" />
+            </CrossTab2>
+            <CrossTab3 Ref="22" type="Stimulsoft.Report.CrossTab.StiCrossTab" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <ClientRectangle>12.8,0.2,12.8,1</ClientRectangle>
+              <Components isList="true" count="3">
+                <CrossTab3_ColTotal1 Ref="23" type="CrossColumnTotal" isKey="true">
+                  <Border>All;[155:155:155];1;Solid;False;4;Black</Border>
+                  <Brush>[255:255:255]</Brush>
+                  <ClientRectangle>1.65,0.05,0,0.4</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Font>Arial,8</Font>
+                  <Guid>c87a8d6682dc4a44a23d5c01d4dc07ac</Guid>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>CrossTab3_ColTotal1</Name>
+                  <Page isRef="7" />
+                  <Parent isRef="22" />
+                  <Restrictions>AllowMove, AllowResize, AllowSelect, AllowChange</Restrictions>
+                  <Text>Total</Text>
+                  <TextBrush>Black</TextBrush>
+                </CrossTab3_ColTotal1>
+                <CrossTab3_Column1_Title Ref="24" type="CrossTitle" isKey="true">
+                  <Border>All;[155:155:155];1;Solid;False;4;Black</Border>
+                  <Brush>White</Brush>
+                  <ClientRectangle>0,0.05,0.8,0.4</ClientRectangle>
+                  <Enabled>False</Enabled>
+                  <Expressions isList="true" count="0" />
+                  <Font>Arial,8</Font>
+                  <Guid>ef3019598ad04bf0896dc1094b5ef214</Guid>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>CrossTab3_Column1_Title</Name>
+                  <Page isRef="7" />
+                  <Parent isRef="22" />
+                  <Restrictions>AllowMove, AllowResize, AllowSelect, AllowChange</Restrictions>
+                  <Text>value</Text>
+                  <TextBrush>[105:105:105]</TextBrush>
+                  <TypeOfComponent>Col:CrossTab3_Column1</TypeOfComponent>
+                </CrossTab3_Column1_Title>
+                <CrossTab3_Column1 Ref="25" type="CrossColumn" isKey="true">
+                  <Alias>value</Alias>
+                  <Border>All;[155:155:155];1;Solid;False;4;Black</Border>
+                  <Brush>White</Brush>
+                  <ClientRectangle>0.25,0.05,1.8,0.4</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <DisplayValue>{root_panels_periodkv.value}</DisplayValue>
+                  <Expressions isList="true" count="0" />
+                  <Font>Arial,8</Font>
+                  <Guid>083fa5d704a044cf95a45b9c301c91d3</Guid>
+                  <Margins>0,0,0,0</Margins>
+                  <MinSize>1.8,0</MinSize>
+                  <Name>CrossTab3_Column1</Name>
+                  <Page isRef="7" />
+                  <Parent isRef="22" />
+                  <Restrictions>AllowMove, AllowResize, AllowSelect, AllowChange</Restrictions>
+                  <ShowTotal>False</ShowTotal>
+                  <Text>value</Text>
+                  <TextBrush>[105:105:105]</TextBrush>
+                  <TotalGuid>c87a8d6682dc4a44a23d5c01d4dc07ac</TotalGuid>
+                  <Value>{root_panels_periodkv.value}</Value>
+                </CrossTab3_Column1>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <DataRelationName />
+              <DataSourceName>root_panels_periodkv</DataSourceName>
+              <EmptyValue />
+              <Expressions isList="true" count="0" />
+              <Filters isList="true" count="0" />
+              <Name>CrossTab3</Name>
+              <Page isRef="7" />
+              <Parent isRef="17" />
+              <Sort isList="true" count="0" />
+            </CrossTab3>
+            <CrossTab4 Ref="26" type="Stimulsoft.Report.CrossTab.StiCrossTab" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanBreak>True</CanBreak>
+              <ClientRectangle>20,0.2,12.8,1</ClientRectangle>
+              <Components isList="true" count="3">
+                <CrossTab4_ColTotal1 Ref="27" type="CrossColumnTotal" isKey="true">
+                  <Border>All;[155:155:155];1;Solid;False;4;Black</Border>
+                  <Brush>[255:255:255]</Brush>
+                  <ClientRectangle>1.65,0.05,0,0.4</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <Expressions isList="true" count="0" />
+                  <Font>Arial,8</Font>
+                  <Guid>722f4d87e58a4ad1858813170852ab57</Guid>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>CrossTab4_ColTotal1</Name>
+                  <Page isRef="7" />
+                  <Parent isRef="26" />
+                  <Restrictions>AllowMove, AllowResize, AllowSelect, AllowChange</Restrictions>
+                  <Text>Total</Text>
+                  <TextBrush>Black</TextBrush>
+                </CrossTab4_ColTotal1>
+                <CrossTab4_Column1_Title Ref="28" type="CrossTitle" isKey="true">
+                  <Border>All;[155:155:155];1;Solid;False;4;Black</Border>
+                  <Brush>White</Brush>
+                  <ClientRectangle>0,0.05,0.8,0.4</ClientRectangle>
+                  <Enabled>False</Enabled>
+                  <Expressions isList="true" count="0" />
+                  <Font>Arial,8</Font>
+                  <Guid>c818106ff5a648828a1ee7f6d000afc2</Guid>
+                  <Margins>0,0,0,0</Margins>
+                  <Name>CrossTab4_Column1_Title</Name>
+                  <Page isRef="7" />
+                  <Parent isRef="26" />
+                  <Restrictions>AllowMove, AllowResize, AllowSelect, AllowChange</Restrictions>
+                  <Text>value</Text>
+                  <TextBrush>[105:105:105]</TextBrush>
+                  <TypeOfComponent>Col:CrossTab4_Column1</TypeOfComponent>
+                </CrossTab4_Column1_Title>
+                <CrossTab4_Column1 Ref="29" type="CrossColumn" isKey="true">
+                  <Alias>value</Alias>
+                  <Border>All;[155:155:155];1;Solid;False;4;Black</Border>
+                  <Brush>White</Brush>
+                  <ClientRectangle>0.25,0.05,1.8,0.4</ClientRectangle>
+                  <Conditions isList="true" count="0" />
+                  <DisplayValue>{root_panels_periodkv.value}</DisplayValue>
+                  <Expressions isList="true" count="0" />
+                  <Font>Arial,8</Font>
+                  <Guid>0cd0816119ba4be3bb2e94edf81e65c0</Guid>
+                  <Margins>0,0,0,0</Margins>
+                  <MinSize>1.8,0</MinSize>
+                  <Name>CrossTab4_Column1</Name>
+                  <Page isRef="7" />
+                  <Parent isRef="26" />
+                  <Restrictions>AllowMove, AllowResize, AllowSelect, AllowChange</Restrictions>
+                  <ShowTotal>False</ShowTotal>
+                  <Text>value</Text>
+                  <TextBrush>[105:105:105]</TextBrush>
+                  <TotalGuid>722f4d87e58a4ad1858813170852ab57</TotalGuid>
+                  <Value>{root_panels_periodkv.value}</Value>
+                </CrossTab4_Column1>
+              </Components>
+              <Conditions isList="true" count="0" />
+              <DataRelationName />
+              <DataSourceName>root_panels_periodkv</DataSourceName>
+              <EmptyValue />
+              <Expressions isList="true" count="0" />
+              <Filters isList="true" count="0" />
+              <Name>CrossTab4</Name>
+              <Page isRef="7" />
+              <Parent isRef="17" />
+              <Sort isList="true" count="0" />
+            </CrossTab4>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Name>Headerroot_panels</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+        </Headerroot_panels>
+        <Dataroot_panels Ref="30" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,3.6,27.7,2.8</ClientRectangle>
+          <Components isList="true" count="9">
+            <Dataroot_panels_name Ref="31" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,0,4,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,10,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Dataroot_panels_name</Name>
+              <Page isRef="7" />
+              <Parent isRef="30" />
+              <Text>{root_panels.name}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Dataroot_panels_name>
+            <Dataroot_panels_plan Ref="32" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>4.8,0,4,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Dataroot_panels_plan</Name>
+              <Page isRef="7" />
+              <Parent isRef="30" />
+              <Text>{root_panels.plan}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Dataroot_panels_plan>
+            <Dataroot_panels_fact Ref="33" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>4.8,0.4,4,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Dataroot_panels_fact</Name>
+              <Page isRef="7" />
+              <Parent isRef="30" />
+              <Text>{root_panels.fact}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Dataroot_panels_fact>
+            <Dataroot_panels_start Ref="34" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>13.6,0,3.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Dataroot_panels_start</Name>
+              <Page isRef="7" />
+              <Parent isRef="30" />
+              <Text>{root_panels.start}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Dataroot_panels_start>
+            <Dataroot_panels_end Ref="35" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>13.6,0.4,3.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Dataroot_panels_end</Name>
+              <Page isRef="7" />
+              <Parent isRef="30" />
+              <Text>{root_panels.end}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <VertAlignment>Center</VertAlignment>
+            </Dataroot_panels_end>
+            <Text5 Ref="36" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.4,0.8,4.2,1</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text5</Name>
+              <Page isRef="7" />
+              <Parent isRef="30" />
+              <Text>{root_panels.name1}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+            </Text5>
+            <Text6 Ref="37" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0.4,1.6,4.2,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text6</Name>
+              <Page isRef="7" />
+              <Parent isRef="30" />
+              <Text>{root_panels.name2}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+            </Text6>
+            <Shape1 Ref="38" type="Shape" isKey="true">
+              <BorderColor>Black</BorderColor>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0.6,27.4,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Name>Shape1</Name>
+              <Page isRef="7" />
+              <Parent isRef="30" />
+              <ShapeType Ref="39" type="Stimulsoft.Report.Components.ShapeTypes.StiHorizontalLineShapeType" isKey="true" />
+            </Shape1>
+            <StartPointPrimitive1 Ref="40" type="Stimulsoft.Report.Components.StiStartPointPrimitive" isKey="true">
+              <ClientRectangle>4.6,0,0,0</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Expressions isList="true" count="0" />
+              <Name>StartPointPrimitive1</Name>
+              <Page isRef="7" />
+              <Parent isRef="30" />
+              <ReferenceToGuid>41924b67e3ab46ceb636c93a92a2a39f</ReferenceToGuid>
+            </StartPointPrimitive1>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DataSourceName>root_panels</DataSourceName>
+          <Expressions isList="true" count="0" />
+          <Filters isList="true" count="0" />
+          <Name>Dataroot_panels</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <Sort isList="true" count="0" />
+        </Dataroot_panels>
+        <VerticalLinePrimitive1 Ref="41" type="VerticalLinePrimitive" isKey="true">
+          <ClientRectangle>4.8,3.6,0.0254,0</ClientRectangle>
+          <Color>Black</Color>
+          <Conditions isList="true" count="0" />
+          <EndCap Ref="42" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Expressions isList="true" count="0" />
+          <Guid>c81107ee9fa14476832355c34ccdba0d</Guid>
+          <Name>VerticalLinePrimitive1</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <StartCap Ref="43" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+        </VerticalLinePrimitive1>
+        <VerticalLinePrimitive2 Ref="44" type="VerticalLinePrimitive" isKey="true">
+          <ClientRectangle>4.6,3.6,0.0254,5.8</ClientRectangle>
+          <Color>Black</Color>
+          <Conditions isList="true" count="0" />
+          <EndCap Ref="45" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Expressions isList="true" count="0" />
+          <Guid>41924b67e3ab46ceb636c93a92a2a39f</Guid>
+          <Name>VerticalLinePrimitive2</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <StartCap Ref="46" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+        </VerticalLinePrimitive2>
+        <VerticalLinePrimitive3 Ref="47" type="VerticalLinePrimitive" isKey="true">
+          <ClientRectangle>5.8,1.2,0.0254,8.2</ClientRectangle>
+          <Color>Black</Color>
+          <Conditions isList="true" count="0" />
+          <EndCap Ref="48" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Expressions isList="true" count="0" />
+          <Guid>d54873581b5345cc81e52ce565e7c46f</Guid>
+          <Name>VerticalLinePrimitive3</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <StartCap Ref="49" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+        </VerticalLinePrimitive3>
+        <EndPointPrimitive2 Ref="50" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+          <ClientRectangle>5.8,9.4,0,0</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Name>EndPointPrimitive2</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <ReferenceToGuid>d54873581b5345cc81e52ce565e7c46f</ReferenceToGuid>
+        </EndPointPrimitive2>
+        <VerticalLinePrimitive4 Ref="51" type="VerticalLinePrimitive" isKey="true">
+          <ClientRectangle>13,1.2,0.0254,8.2</ClientRectangle>
+          <Color>Black</Color>
+          <Conditions isList="true" count="0" />
+          <EndCap Ref="52" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Expressions isList="true" count="0" />
+          <Guid>5da5c0e5c2b3454999f17f4759e364a1</Guid>
+          <Name>VerticalLinePrimitive4</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <StartCap Ref="53" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+        </VerticalLinePrimitive4>
+        <EndPointPrimitive3 Ref="54" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+          <ClientRectangle>13,9.4,0,0</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Name>EndPointPrimitive3</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <ReferenceToGuid>5da5c0e5c2b3454999f17f4759e364a1</ReferenceToGuid>
+        </EndPointPrimitive3>
+        <VerticalLinePrimitive5 Ref="55" type="VerticalLinePrimitive" isKey="true">
+          <ClientRectangle>20.2,1.2,0.0254,8.2</ClientRectangle>
+          <Color>Black</Color>
+          <Conditions isList="true" count="0" />
+          <EndCap Ref="56" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Expressions isList="true" count="0" />
+          <Guid>662711301a594964bf79a2a5315370bf</Guid>
+          <Name>VerticalLinePrimitive5</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <StartCap Ref="57" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+        </VerticalLinePrimitive5>
+        <EndPointPrimitive4 Ref="58" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+          <ClientRectangle>20.2,9.4,0,0</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Name>EndPointPrimitive4</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <ReferenceToGuid>662711301a594964bf79a2a5315370bf</ReferenceToGuid>
+        </EndPointPrimitive4>
+        <VerticalLinePrimitive6 Ref="59" type="VerticalLinePrimitive" isKey="true">
+          <ClientRectangle>27.4,1.2,0.0254,8.2</ClientRectangle>
+          <Color>Black</Color>
+          <Conditions isList="true" count="0" />
+          <EndCap Ref="60" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </EndCap>
+          <Expressions isList="true" count="0" />
+          <Guid>8fcb268f08804f289b319e477aab6d00</Guid>
+          <Name>VerticalLinePrimitive6</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <StartCap Ref="61" type="Cap" isKey="true">
+            <Color>Black</Color>
+          </StartCap>
+        </VerticalLinePrimitive6>
+        <EndPointPrimitive5 Ref="62" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+          <ClientRectangle>27.4,9.4,0,0</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Name>EndPointPrimitive5</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <ReferenceToGuid>8fcb268f08804f289b319e477aab6d00</ReferenceToGuid>
+        </EndPointPrimitive5>
+        <EndPointPrimitive1 Ref="63" type="Stimulsoft.Report.Components.StiEndPointPrimitive" isKey="true">
+          <ClientRectangle>4.6,9.4,0,0</ClientRectangle>
+          <Conditions isList="true" count="0" />
+          <Expressions isList="true" count="0" />
+          <Name>EndPointPrimitive1</Name>
+          <Page isRef="7" />
+          <Parent isRef="7" />
+          <ReferenceToGuid>41924b67e3ab46ceb636c93a92a2a39f</ReferenceToGuid>
+        </EndPointPrimitive1>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Expressions isList="true" count="0" />
+      <Guid>28f49c4dbee04277aa2539ba8b745911</Guid>
+      <Margins>1,1,1,1</Margins>
+      <Name>Page1</Name>
+      <Orientation>Landscape</Orientation>
+      <PageHeight>21</PageHeight>
+      <PageWidth>29.7</PageWidth>
+      <Report isRef="0" />
+    </Page1>
+  </Pages>
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>Report</ReportAlias>
+  <ReportChanged>5/19/2021 5:21:54 PM</ReportChanged>
+  <ReportCreated>5/17/2021 2:59:16 PM</ReportCreated>
+  <ReportFile>\\Mac\Home\Desktop\ReportV3.mrt</ReportFile>
+  <ReportGuid>305c02a415684640af26b455415ed8e1</ReportGuid>
+  <ReportName>Report</ReportName>
+  <ReportUnit>Centimeters</ReportUnit>
+  <ReportVersion>2021.2.4.0</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    public class Report : Stimulsoft.Report.StiReport
+    {
+        public Report()        {
+            this.InitializeComponent();
+        }
+
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
+    }
+}
+</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="0" />
+</StiSerializer>
