@@ -1,4 +1,7 @@
-﻿using System.Threading.Tasks;
+﻿using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
+using System.Xml.Linq;
 using Microsoft.AspNetCore.Mvc;
 using Stimulsoft.Base;
 using Stimulsoft.Report;
@@ -26,6 +29,22 @@ namespace StimulsoftReport.Controllers
         [HttpPost, Route("get-report")]
         public async Task<IActionResult> GetReport()
         {
+            XDocument doc = XDocument.Load("Reports/ReportV3.mrt");
+            List<XElement> components = doc.Element("StiSerializer").Elements("Pages").Elements("Page1").Elements("Components")
+                .ToList();
+
+            foreach (XElement elem in components)
+            {
+                elem.Element("Text1").Element("Text").Value = "31.12.2020";
+                elem.Element("Text2").Element("Text").Value = "31.03.2021";
+                elem.Element("Text3").Element("Text").Value = "01.09.2020*";
+                elem.Element("Text4").Element("Text").Value = "31.12.2020";
+                elem.Element("Text5").Element("Text").Value = "31.03.2021**";
+                elem.Element("Text6").Element("Text").Value = "31.03.2021***";
+            }
+
+            doc.Save("Reports/ReportV3.mrt");
+
             StiReport report = new StiReport();
 
             // Загрузит шаблон отчета из папки.
